@@ -15,7 +15,7 @@ while True:
     opcao = int(input('Qual sua opção? '))
     if opcao == 1:
         print('CADASTRO:')
-        nome = str(input('Nome: ')).title()
+        nome = str(input('Nome: ')).strip().title()
         idade = int(input('Idade: '))
         sexo = str(input('Sexo:[M/F] ')).strip().upper()[0]
         pessoa = [nome, idade, sexo]
