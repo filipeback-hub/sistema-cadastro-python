@@ -1,14 +1,10 @@
-#Projeto
 from time import sleep
 print('\033[1;4mSISTEMA DE CADASTRO + ESTATISTICA\033[m')
-total = 0
-pessoas = []
-TotIdade = 0
+total = TotIdade = 0
+velho = NomeVelho = 0
+homem = mulher = 0
 media = 1
-velho = 0
-NomeVelho = 0
-homem = 0
-mulher = 0
+pessoas = []
 while True:
     print('==='*10)
     print('''Digite:
